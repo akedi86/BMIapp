@@ -7,7 +7,7 @@ app.set('view engine', 'hbs');
 app.use(express.static('public'));
 
 app.get('/', function (request, response) {
-    response.render('home', {name: 'John Doe'});
+    response.render('home', {name: 'John Rivers'});
 });
 
 app.listen(port);
